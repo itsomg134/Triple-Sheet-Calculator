@@ -1,58 +1,55 @@
 
-# 📊 Triple Sheet Calculator
+#  Triple Sheet Calculator
 
 A sophisticated, real-time three-way calculator that allows side-by-side calculations with independent operations and comprehensive result comparison. Perfect for comparing different calculation strategies, financial scenarios, or educational purposes.
 
 <img width="1890" height="1057" alt="image" src="https://github.com/user-attachments/assets/92a09a25-0b36-4619-b596-620ea1ddcc29" />
 
-## ✨ Features
+##  Features
 
-### 🎯 Three Independent Sheets
+###  Three Independent Sheets
 - **Sheet A** (Primary) - Default addition calculator
 - **Sheet B** (Secondary) - Default division calculator  
 - **Sheet C** (Tertiary) - Default modulo calculator
 
-### 🧮 Powerful Operations Per Sheet
+###  Powerful Operations Per Sheet
 Each sheet supports six mathematical operations:
-- ➕ **Addition** (X + Y)
-- ➖ **Subtraction** (X - Y)
-- ✖️ **Multiplication** (X × Y)
-- ➗ **Division** (X ÷ Y) with zero division protection
-- ⚡ **Power** (X ^ Y) for exponential calculations
-- 🧮 **Modulo** (X % Y) for remainder calculations
+-  **Addition** (X + Y)
+-  **Subtraction** (X - Y)
+-  **Multiplication** (X × Y)
+-  **Division** (X ÷ Y) with zero division protection
+-  **Power** (X ^ Y) for exponential calculations
+   **Modulo** (X % Y) for remainder calculations
 
-### 📈 Real-time Comparison Dashboard
+###  Real-time Comparison Dashboard
 Automatically displays across all three sheets:
 - **Minimum Result** - Lowest value among all sheets
 - **Maximum Result** - Highest value among all sheets  
 - **Sum of Results** - Total of all valid calculations
 - **Average** - Mean value of all sheet results
 
-### 🎨 Modern UI/UX
+### Modern UI/UX
 - Glassmorphism design with smooth gradients
 - Responsive layout for desktop and mobile devices
 - Distinct color themes for each sheet (warm amber, cool blue, fresh green)
 - Hover animations and interactive feedback
 - Real-time calculation updates without page reload
 
-### 🛠️ Control Features
+###  Control Features
 - **Individual Sheet Reset** - Reset any sheet to its default values
 - **Global Reset** - Reset all three sheets simultaneously
 - **Error Handling** - Graceful handling of division by zero and invalid operations
 - **Infinite Value Detection** - Proper display of overflow/underflow conditions
 
-## 🚀 Live Demo
 
-[View Live Demo](https://your-demo-link.com) - *Replace with your actual deployment link*
-
-## 💻 Technologies Used
+##  Technologies Used
 
 - **HTML5** - Semantic structure
 - **CSS3** - Modern styling with flexbox, gradients, and animations
 - **JavaScript (ES6)** - Dynamic calculations and real-time updates
 - **No External Dependencies** - Pure vanilla implementation
 
-## 📦 Installation
+##  Installation
 
 ### Local Development
 
@@ -75,7 +72,7 @@ open index.html
 
 Just download the `index.html` file and open it in any modern web browser. No build process or dependencies required!
 
-## 🎮 How to Use
+##  How to Use
 
 1. **Enter Numbers**: Input values in the X and Y fields for each sheet
 2. **Select Operation**: Choose from six mathematical operations per sheet
@@ -95,22 +92,13 @@ Just download the `index.html` file and open it in any modern web browser. No bu
 - Demonstrate the effects of different operations on the same numbers
 - Teaching order of operations and mathematical concepts
 
-## 🧪 Testing
-
-The calculator handles various edge cases:
-- ✅ Decimal numbers
-- ✅ Negative numbers  
-- ✅ Division by zero (displays "⚠️ Error")
-- ✅ Large exponents (displays "∞ (Infinite)" when overflow occurs)
-- ✅ Empty or invalid inputs (treated as 0)
-
-## 📱 Responsive Design
+##  Responsive Design
 
 - **Desktop**: Three-column layout with spacious cards
 - **Tablet**: Flexible column layout with adjusted spacing
 - **Mobile**: Single-column layout for easy touch interaction
 
-## 🔧 Customization
+##  Customization
 
 ### Adding New Operations
 
@@ -124,7 +112,7 @@ case 'newOperation':
 Then add the option to each sheet's select dropdown:
 
 ```html
-<option value="newOperation">✨ New Operation (X * Y + X)</option>
+<option value="newOperation"> New Operation (X * Y + X)</option>
 ```
 
 ### Changing Color Themes
@@ -138,18 +126,18 @@ Modify the gradient colors in the CSS:
 }
 ```
 
-## 🌟 Performance
+##  Performance
 
 - **Real-time Updates**: Instant calculation on any input change
 - **Optimized Rendering**: Minimal DOM manipulation
 - **No External Libraries**: Lightweight and fast loading
 - **Efficient Event Handling**: Debounced updates for smooth performance
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -166,54 +154,3 @@ Contributions are welcome! Here's how you can help:
 - Save/load calculation presets
 - Dark mode toggle
 - Custom operation builder
-
-## 🐛 Known Issues
-
-- Power operation with negative base and fractional exponents may result in complex numbers (displayed as NaN)
-- Very large exponent results may display as "∞ (Infinite)"
-
-## 📞 Support
-
-For issues, questions, or contributions:
-- Open an [issue](https://github.com/yourusername/triple-sheet-calculator/issues)
-- Contact: [your-email@example.com](mailto:your-email@example.com)
-
-## 🎯 Future Roadmap
-
-- [ ] History tracking for each sheet
-- [ ] Export/import calculation scenarios
-- [ ] Chart visualization of results
-- [ ] Custom operation builder interface
-- [ ] Keyboard navigation support
-- [ ] Dark/light theme toggle
-- [ ] Save favorite calculation presets
-- [ ] Mobile app version with React Native
-
-## 🙏 Acknowledgments
-
-- Inspired by multi-sheet spreadsheet applications
-- Design influenced by modern web calculators
-- Icons and emojis for enhanced user experience
-
----
-
-**Made with ❤️ for efficient multi-calculation workflows**
-```
-
-This README provides comprehensive documentation covering:
-
-1. **Project Overview** - Clear description of what the tool does
-2. **Features** - Detailed breakdown of functionality
-3. **Installation** - Simple setup instructions
-4. **Usage Guide** - How to use the calculator with examples
-5. **Technical Details** - Technologies and customization options
-6. **Contributing** - How others can help improve the project
-7. **Roadmap** - Future development plans
-
-You can customize the placeholder elements like:
-- Demo link URL
-- Your email address
-- GitHub repository URL
-- Screenshot/logo placeholders
-
-Would you like me to add any specific sections or modify the README for your particular use case?
