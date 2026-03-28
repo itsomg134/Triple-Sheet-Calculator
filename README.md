@@ -1,11 +1,9 @@
-Here's a comprehensive GitHub README for your Triple Sheet Calculator project:
 
-```markdown
 # 📊 Triple Sheet Calculator
 
 A sophisticated, real-time three-way calculator that allows side-by-side calculations with independent operations and comprehensive result comparison. Perfect for comparing different calculation strategies, financial scenarios, or educational purposes.
 
-![Triple Sheet Calculator Demo](https://via.placeholder.com/800x400?text=Triple+Sheet+Calculator+Preview)
+<img width="1890" height="1057" alt="image" src="https://github.com/user-attachments/assets/92a09a25-0b36-4619-b596-620ea1ddcc29" />
 
 ## ✨ Features
 
